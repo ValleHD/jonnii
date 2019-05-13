@@ -1,0 +1,86 @@
+body {
+	display: grid;
+	background-image: url(img/background3.jpg);
+	background-position: 50% 76%;
+	background-repeat: no-repeat;
+	background-size: auto 150%;
+}
+
+#home {	
+	padding: 50px 5px;
+}
+
+.uberschrift{
+	font-size: 60px;
+	font-family: Georgia;
+	color:#f1ede9;
+}
+
+.schrift{
+	color:#f1ede9;
+	font-family: Georgia;
+	font-size: 1.8vw;
+}
+
+@media(max-width:900px) {
+	.schrift {
+		font-size: 18px;
+	}
+}
+
+@media(min-width:600px) {
+	.schrift {
+		margin: 4vw 0;
+	}
+}
+
+@media(min-width:1000px) {
+	.schrift {
+		margin: 1.5vw 0;
+	}
+	.songs {
+		margin: 2vw 0;
+	}
+}
+
+.padding {
+	padding: 20px 10px;
+}
+
+.border {
+	/*border: 1px solid red;*/
+}
+
+.container {
+	margin: auto;
+}
+
+form {
+  background-color: #eee;
+  min-width: 300px; 
+  max-width: 400px;
+  padding: 10px;
+  margin: auto;
+  border: 1px solid #8c8c8c;
+}
+
+label { 
+  display: block;
+  cursor: pointer; 
+}
+
+input#absender,
+textarea {
+  width: 300px;
+  border: 1px solid #8c8c8c;
+  margin-bottom: 1em;
+}
+
+textarea {
+  height: 7em;
+}
+
+input:focus,
+textarea:focus {
+  background-color: #d9d9d9;
+}
